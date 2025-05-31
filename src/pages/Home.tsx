@@ -15,28 +15,28 @@ const Home = () => {
     {
       name: "Wood & Lumber",
       description: "Premium quality lumber for all your construction needs",
-      image: "/placeholder-wood.jpg",
+      image: "/lovable-uploads/77ae42e8-4556-4ddf-88d1-76c9eccab88b.png",
       inStock: true,
       icon: <Construction />
     },
     {
       name: "Flooring",
       description: "Hardwood, laminate, and tile flooring options",
-      image: "/placeholder-flooring.jpg",
+      image: "/lovable-uploads/0e7092c3-52bc-4abb-baab-a09fc61ff7fc.png",
       inStock: true,
       icon: <HomeIcon />
     },
     {
       name: "Washroom Products",
       description: "Complete bathroom renovation supplies",
-      image: "/placeholder-bathroom.jpg",
+      image: "/lovable-uploads/ce612bfa-53bc-4c0d-90ce-be9a11b69f95.png",
       inStock: false,
       icon: <Wrench />
     },
     {
       name: "Concrete & Cement",
       description: "High-strength concrete and cement products",
-      image: "/placeholder-concrete.jpg",
+      image: "/lovable-uploads/6dc8aadd-6ae7-4f46-8c88-c8cb9092b0c0.png",
       inStock: true,
       icon: <Building />
     }

@@ -13,56 +13,56 @@ const Products = () => {
     {
       name: "Wood & Lumber",
       description: "Premium quality lumber including dimensional lumber, engineered wood, plywood, and specialty wood products for framing, flooring, and finishing.",
-      image: "/placeholder-wood.jpg",
+      image: "/lovable-uploads/77ae42e8-4556-4ddf-88d1-76c9eccab88b.png",
       inStock: true,
       icon: <Construction />
     },
     {
       name: "Flooring",
       description: "Complete flooring solutions including hardwood, laminate, vinyl, tile, and carpet options with underlayment and installation accessories.",
-      image: "/placeholder-flooring.jpg",
+      image: "/lovable-uploads/0e7092c3-52bc-4abb-baab-a09fc61ff7fc.png",
       inStock: true,
       icon: <HomeIcon />
     },
     {
       name: "Washroom Products",
       description: "Complete bathroom renovation supplies including tiles, fixtures, vanities, plumbing supplies, and finishing materials.",
-      image: "/placeholder-bathroom.jpg",
+      image: "/lovable-uploads/ce612bfa-53bc-4c0d-90ce-be9a11b69f95.png",
       inStock: false,
       icon: <Wrench />
     },
     {
       name: "Concrete & Cement",
       description: "High-strength concrete, cement, aggregates, reinforcement materials, and concrete additives for all construction applications.",
-      image: "/placeholder-concrete.jpg",
+      image: "/lovable-uploads/6dc8aadd-6ae7-4f46-8c88-c8cb9092b0c0.png",
       inStock: true,
       icon: <Building />
     },
     {
       name: "Drywall",
       description: "Complete drywall systems including panels, joint compound, tape, corner beads, and finishing supplies for interior construction.",
-      image: "/placeholder-drywall.jpg",
+      image: "/lovable-uploads/1e026965-4042-499f-93d7-c57486891df6.png",
       inStock: true,
       icon: <Wrench />
     },
     {
       name: "Roofing Materials",
       description: "Comprehensive roofing solutions including shingles, underlayment, flashing, gutters, and roofing accessories.",
-      image: "/placeholder-roofing.jpg",
+      image: "/lovable-uploads/35507a8c-ce6d-43fa-9b4a-5174d069049f.png",
       inStock: false,
       icon: <HomeIcon />
     },
     {
       name: "Insulation",
       description: "Energy-efficient insulation materials including fiberglass, foam, and reflective insulation for thermal and sound control.",
-      image: "/placeholder-insulation.jpg",
+      image: "/lovable-uploads/c57409e5-6b75-47ba-bb90-5a2dd8bdc5a4.png",
       inStock: true,
       icon: <Building />
     },
     {
       name: "Tools & Fasteners",
       description: "Professional-grade tools, fasteners, hardware, and construction accessories from trusted brands.",
-      image: "/placeholder-tools.jpg",
+      image: "/lovable-uploads/9d04bcbd-b9dc-4531-a793-44b3f9e5dc30.png",
       inStock: true,
       icon: <Hammer />
     }

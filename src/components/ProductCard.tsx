@@ -14,10 +14,12 @@ interface ProductCardProps {
 const ProductCard: React.FC<ProductCardProps> = ({ name, description, image, inStock, icon }) => {
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
-      <div className="h-48 bg-gray-200 flex items-center justify-center">
-        <div className="text-gray-400 text-6xl">
-          {icon}
-        </div>
+      <div className="h-48 bg-gray-200 overflow-hidden">
+        <img 
+          src={image} 
+          alt={name}
+          className="w-full h-full object-cover"
+        />
       </div>
       
       <div className="p-6">
