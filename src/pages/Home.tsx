@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Truck, Shield, Clock, Users } from 'lucide-react';
@@ -9,6 +10,13 @@ import {
   Building, 
   Construction 
 } from 'lucide-react';
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "../components/ui/carousel";
 
 const Home = () => {
   const featuredProducts = [
@@ -42,6 +50,41 @@ const Home = () => {
     }
   ];
 
+  const bannerImages = [
+    {
+      src: "/lovable-uploads/77ae42e8-4556-4ddf-88d1-76c9eccab88b.png",
+      alt: "Wood & Lumber"
+    },
+    {
+      src: "/lovable-uploads/0e7092c3-52bc-4abb-baab-a09fc61ff7fc.png",
+      alt: "Flooring"
+    },
+    {
+      src: "/lovable-uploads/ce612bfa-53bc-4c0d-90ce-be9a11b69f95.png",
+      alt: "Washroom Products"
+    },
+    {
+      src: "/lovable-uploads/6dc8aadd-6ae7-4f46-8c88-c8cb9092b0c0.png",
+      alt: "Concrete & Cement"
+    },
+    {
+      src: "/lovable-uploads/1e026965-4042-499f-93d7-c57486891df6.png",
+      alt: "Drywall"
+    },
+    {
+      src: "/lovable-uploads/35507a8c-ce6d-43fa-9b4a-5174d069049f.png",
+      alt: "Roofing Materials"
+    },
+    {
+      src: "/lovable-uploads/c57409e5-6b75-47ba-bb90-5a2dd8bdc5a4.png",
+      alt: "Insulation"
+    },
+    {
+      src: "/lovable-uploads/9d04bcbd-b9dc-4531-a793-44b3f9e5dc30.png",
+      alt: "Tools & Fasteners"
+    }
+  ];
+
   return (
     <div>
       {/* Hero Section */}
@@ -69,6 +112,40 @@ const Home = () => {
               </Link>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Product Banner Carousel */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-8">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+              Our Construction Materials
+            </h2>
+            <p className="text-xl text-gray-600">
+              Premium quality materials for every construction project
+            </p>
+          </div>
+          
+          <Carousel className="w-full max-w-6xl mx-auto" opts={{ loop: true }}>
+            <CarouselContent className="-ml-1">
+              {bannerImages.map((image, index) => (
+                <CarouselItem key={index} className="pl-1 md:basis-1/2 lg:basis-1/3">
+                  <div className="p-1">
+                    <div className="aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
+                      <img 
+                        src={image.src} 
+                        alt={image.alt}
+                        className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                      />
+                    </div>
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious className="left-2" />
+            <CarouselNext className="right-2" />
+          </Carousel>
         </div>
       </section>
 
