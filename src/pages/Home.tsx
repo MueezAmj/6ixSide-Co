@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Truck, Shield, Clock, Users } from 'lucide-react';
@@ -8,8 +7,7 @@ import {
   Home as HomeIcon, 
   Wrench, 
   Building, 
-  Construction, 
-  Tools 
+  Construction 
 } from 'lucide-react';
 
 const Home = () => {

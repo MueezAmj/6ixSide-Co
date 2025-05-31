@@ -1,4 +1,3 @@
-
 import React from 'react';
 import ProductCard from '../components/ProductCard';
 import { 
@@ -6,8 +5,7 @@ import {
   Home as HomeIcon, 
   Wrench, 
   Building, 
-  Construction, 
-  Tools 
+  Construction 
 } from 'lucide-react';
 
 const Products = () => {
@@ -45,7 +43,7 @@ const Products = () => {
       description: "Complete drywall systems including panels, joint compound, tape, corner beads, and finishing supplies for interior construction.",
       image: "/placeholder-drywall.jpg",
       inStock: true,
-      icon: <Tools />
+      icon: <Wrench />
     },
     {
       name: "Roofing Materials",
