@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <>
       {/* Top contact bar */}
-      <div className="bg-yellow-500 text-black py-2 px-4">
+      <div className="bg-blue-medium text-white py-2 px-4">
         <div className="container mx-auto flex justify-center md:justify-end items-center space-x-6 text-sm">
           <div className="flex items-center space-x-2">
             <Phone size={14} />
@@ -31,12 +31,12 @@ const Header = () => {
           <div className="flex justify-between items-center py-4">
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-3">
-              <div className="bg-gray-800 text-yellow-500 p-2 rounded-lg">
+              <div className="bg-blue-dark text-blue-light p-2 rounded-lg">
                 <span className="text-xl font-bold">6ix</span>
               </div>
               <div>
-                <h1 className="text-xl font-bold text-gray-800">6ixSide Construction</h1>
-                <p className="text-sm text-gray-600">Building Supplies</p>
+                <h1 className="text-xl font-bold text-blue-dark">6ixSide Construction</h1>
+                <p className="text-sm text-blue-medium">Building Supplies</p>
               </div>
             </Link>
 
@@ -44,37 +44,37 @@ const Header = () => {
             <nav className="hidden md:flex items-center space-x-8">
               <Link 
                 to="/" 
-                className={`font-medium transition-colors ${isActive('/') ? 'text-yellow-600' : 'text-gray-700 hover:text-yellow-600'}`}
+                className={`font-medium transition-colors ${isActive('/') ? 'text-blue-medium' : 'text-gray-700 hover:text-blue-medium'}`}
               >
                 Home
               </Link>
               <Link 
                 to="/about" 
-                className={`font-medium transition-colors ${isActive('/about') ? 'text-yellow-600' : 'text-gray-700 hover:text-yellow-600'}`}
+                className={`font-medium transition-colors ${isActive('/about') ? 'text-blue-medium' : 'text-gray-700 hover:text-blue-medium'}`}
               >
                 About Us
               </Link>
               <Link 
                 to="/products" 
-                className={`font-medium transition-colors ${isActive('/products') ? 'text-yellow-600' : 'text-gray-700 hover:text-yellow-600'}`}
+                className={`font-medium transition-colors ${isActive('/products') ? 'text-blue-medium' : 'text-gray-700 hover:text-blue-medium'}`}
               >
                 Products
               </Link>
               <Link 
                 to="/services" 
-                className={`font-medium transition-colors ${isActive('/services') ? 'text-yellow-600' : 'text-gray-700 hover:text-yellow-600'}`}
+                className={`font-medium transition-colors ${isActive('/services') ? 'text-blue-medium' : 'text-gray-700 hover:text-blue-medium'}`}
               >
                 Services
               </Link>
               <Link 
                 to="/contact" 
-                className={`font-medium transition-colors ${isActive('/contact') ? 'text-yellow-600' : 'text-gray-700 hover:text-yellow-600'}`}
+                className={`font-medium transition-colors ${isActive('/contact') ? 'text-blue-medium' : 'text-gray-700 hover:text-blue-medium'}`}
               >
                 Contact
               </Link>
               <Link 
                 to="/quote" 
-                className="bg-yellow-500 text-black px-6 py-2 rounded-lg font-medium hover:bg-yellow-600 transition-colors"
+                className="bg-blue-medium text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-dark transition-colors"
               >
                 Request Quote
               </Link>
@@ -95,42 +95,42 @@ const Header = () => {
               <nav className="flex flex-col space-y-4">
                 <Link 
                   to="/" 
-                  className={`font-medium transition-colors ${isActive('/') ? 'text-yellow-600' : 'text-gray-700'}`}
+                  className={`font-medium transition-colors ${isActive('/') ? 'text-blue-medium' : 'text-gray-700'}`}
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Home
                 </Link>
                 <Link 
                   to="/about" 
-                  className={`font-medium transition-colors ${isActive('/about') ? 'text-yellow-600' : 'text-gray-700'}`}
+                  className={`font-medium transition-colors ${isActive('/about') ? 'text-blue-medium' : 'text-gray-700'}`}
                   onClick={() => setIsMenuOpen(false)}
                 >
                   About Us
                 </Link>
                 <Link 
                   to="/products" 
-                  className={`font-medium transition-colors ${isActive('/products') ? 'text-yellow-600' : 'text-gray-700'}`}
+                  className={`font-medium transition-colors ${isActive('/products') ? 'text-blue-medium' : 'text-gray-700'}`}
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Products
                 </Link>
                 <Link 
                   to="/services" 
-                  className={`font-medium transition-colors ${isActive('/services') ? 'text-yellow-600' : 'text-gray-700'}`}
+                  className={`font-medium transition-colors ${isActive('/services') ? 'text-blue-medium' : 'text-gray-700'}`}
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Services
                 </Link>
                 <Link 
                   to="/contact" 
-                  className={`font-medium transition-colors ${isActive('/contact') ? 'text-yellow-600' : 'text-gray-700'}`}
+                  className={`font-medium transition-colors ${isActive('/contact') ? 'text-blue-medium' : 'text-gray-700'}`}
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Contact
                 </Link>
                 <Link 
                   to="/quote" 
-                  className="bg-yellow-500 text-black px-6 py-2 rounded-lg font-medium hover:bg-yellow-600 transition-colors text-center"
+                  className="bg-blue-medium text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-dark transition-colors text-center"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Request Quote

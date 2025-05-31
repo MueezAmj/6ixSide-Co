@@ -23,8 +23,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ name, description, image, inS
       </div>
       
       <div className="p-6">
-        <h3 className="text-xl font-semibold text-gray-800 mb-2">{name}</h3>
-        <p className="text-gray-600 text-sm mb-4 leading-relaxed">{description}</p>
+        <h3 className="text-xl font-semibold text-blue-dark mb-2">{name}</h3>
+        <p className="text-blue-medium text-sm mb-4 leading-relaxed">{description}</p>
         
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center space-x-2">
@@ -44,7 +44,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ name, description, image, inS
         
         <Link 
           to="/quote" 
-          className="w-full bg-yellow-500 text-black py-2 px-4 rounded-lg font-medium hover:bg-yellow-600 transition-colors text-center block"
+          className="w-full bg-blue-medium text-white py-2 px-4 rounded-lg font-medium hover:bg-blue-dark transition-colors text-center block"
         >
           Request Quote
         </Link>

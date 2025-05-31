@@ -65,7 +65,12 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom blue gradient colors
+				'blue-light': 'hsl(var(--blue-light))',
+				'blue-medium-light': 'hsl(var(--blue-medium-light))',
+				'blue-medium': 'hsl(var(--blue-medium))',
+				'blue-dark': 'hsl(var(--blue-dark))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

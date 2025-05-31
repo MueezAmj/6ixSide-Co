@@ -71,11 +71,11 @@ const Products = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gray-800 text-white py-16">
+      <section className="bg-blue-dark text-white py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Products</h1>
-            <p className="text-xl text-gray-300">
+            <p className="text-xl text-blue-light">
               Comprehensive selection of premium building materials for every construction need
             </p>
           </div>
@@ -94,24 +94,24 @@ const Products = () => {
       </section>
 
       {/* Additional Info */}
-      <section className="bg-gray-50 py-16">
+      <section className="bg-blue-light/20 py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-gray-800 mb-6">Can't Find What You Need?</h2>
-            <p className="text-xl text-gray-600 mb-8">
+            <h2 className="text-3xl font-bold text-blue-dark mb-6">Can't Find What You Need?</h2>
+            <p className="text-xl text-blue-medium mb-8">
               We work with hundreds of suppliers and can source specialty items for your project. 
               Contact us with your specific requirements and we'll find the right solution.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
                 href="/quote" 
-                className="bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold hover:bg-yellow-600 transition-colors"
+                className="bg-blue-medium text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-dark transition-colors"
               >
                 Request Custom Quote
               </a>
               <a 
                 href="tel:(416)555-0123" 
-                className="border-2 border-gray-800 text-gray-800 px-8 py-3 rounded-lg font-semibold hover:bg-gray-800 hover:text-white transition-colors"
+                className="border-2 border-blue-dark text-blue-dark px-8 py-3 rounded-lg font-semibold hover:bg-blue-dark hover:text-white transition-colors"
               >
                 Call Us: (416) 555-0123
               </a>
