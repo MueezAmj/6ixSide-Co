@@ -12,10 +12,10 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-3 mb-4">
               <div className="bg-blue-medium text-white p-2 rounded-lg">
-                <span className="text-lg font-bold">6ix</span>
+                <span className="text-lg font-bold">881</span>
               </div>
               <div>
-                <h3 className="text-lg font-bold">6ixSide Construction</h3>
+                <h3 className="text-lg font-bold">881 Canada Inc.</h3>
                 <p className="text-sm text-blue-light">Building Supplies</p>
               </div>
             </div>
@@ -46,7 +46,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start space-x-3">
                 <Mail size={16} className="text-blue-medium-light mt-1" />
-                <span className="text-blue-light text-sm">info@6ixsideconstruction.com</span>
+                <span className="text-blue-light text-sm">info@881canadainc.com</span>
               </li>
               <li className="flex items-start space-x-3">
                 <MapPin size={16} className="text-blue-medium-light mt-1" />
@@ -81,7 +81,7 @@ const Footer = () => {
         <div className="border-t border-blue-medium mt-8 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-blue-light text-sm">
-              © 2024 6ixSide Construction Supplies. All rights reserved.
+              © 2024 881 Canada Inc. All rights reserved.
             </p>
             <p className="text-blue-light text-sm mt-2 md:mt-0">
               Serving the Greater Toronto Area

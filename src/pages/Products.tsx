@@ -1,3 +1,4 @@
+
 import React from 'react';
 import ProductCard from '../components/ProductCard';
 import { 
@@ -65,6 +66,20 @@ const Products = () => {
       image: "/lovable-uploads/9d04bcbd-b9dc-4531-a793-44b3f9e5dc30.png",
       inStock: true,
       icon: <Hammer />
+    },
+    {
+      name: "Building Supply",
+      description: "Comprehensive building supplies including structural materials, hardware, and essential construction components for all project types.",
+      image: "/lovable-uploads/77ae42e8-4556-4ddf-88d1-76c9eccab88b.png",
+      inStock: true,
+      icon: <Construction />
+    },
+    {
+      name: "Material Flooring",
+      description: "Specialized flooring materials including engineered flooring, subfloor systems, transition strips, and premium flooring accessories.",
+      image: "/lovable-uploads/0e7092c3-52bc-4abb-baab-a09fc61ff7fc.png",
+      inStock: true,
+      icon: <HomeIcon />
     }
   ];
 

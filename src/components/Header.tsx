@@ -20,7 +20,7 @@ const Header = () => {
           </div>
           <div className="flex items-center space-x-2">
             <Mail size={14} />
-            <span>info@6ixsideconstruction.com</span>
+            <span>info@881canadainc.com</span>
           </div>
         </div>
       </div>
@@ -32,10 +32,10 @@ const Header = () => {
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-3">
               <div className="bg-blue-dark text-blue-light p-2 rounded-lg">
-                <span className="text-xl font-bold">6ix</span>
+                <span className="text-xl font-bold">881</span>
               </div>
               <div>
-                <h1 className="text-xl font-bold text-blue-dark">6ixSide Construction</h1>
+                <h1 className="text-xl font-bold text-blue-dark">881 Canada Inc.</h1>
                 <p className="text-sm text-blue-medium">Building Supplies</p>
               </div>
             </Link>
