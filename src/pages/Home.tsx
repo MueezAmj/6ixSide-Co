@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Truck, Shield, Clock, Users } from 'lucide-react';
@@ -82,6 +81,14 @@ const Home = () => {
     {
       src: "/lovable-uploads/9d04bcbd-b9dc-4531-a793-44b3f9e5dc30.png",
       alt: "Tools & Fasteners"
+    },
+    {
+      src: "/lovable-uploads/77ae42e8-4556-4ddf-88d1-76c9eccab88b.png",
+      alt: "Building Supply"
+    },
+    {
+      src: "/lovable-uploads/0e7092c3-52bc-4abb-baab-a09fc61ff7fc.png",
+      alt: "Material Flooring"
     }
   ];
 
