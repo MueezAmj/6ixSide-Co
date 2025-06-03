@@ -1,3 +1,4 @@
+
 import React from 'react';
 import ProductCard from '../components/ProductCard';
 import { 
@@ -85,11 +86,11 @@ const Products = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-blue-dark text-white py-16">
+      <section className="bg-construction-dark text-white py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Products</h1>
-            <p className="text-xl text-blue-light">
+            <p className="text-xl text-construction-light">
               Comprehensive selection of premium building materials for every construction need
             </p>
           </div>
@@ -108,24 +109,24 @@ const Products = () => {
       </section>
 
       {/* Additional Info */}
-      <section className="bg-blue-light/20 py-16">
+      <section className="bg-construction-light/20 py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-blue-dark mb-6">Can't Find What You Need?</h2>
-            <p className="text-xl text-blue-medium mb-8">
+            <h2 className="text-3xl font-bold text-construction-dark mb-6">Can't Find What You Need?</h2>
+            <p className="text-xl text-construction-medium mb-8">
               We work with hundreds of suppliers and can source specialty items for your project. 
               Contact us with your specific requirements and we'll find the right solution.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
                 href="/quote" 
-                className="bg-blue-medium text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-dark transition-colors"
+                className="bg-construction-medium text-white px-8 py-3 rounded-lg font-semibold hover:bg-construction-dark transition-colors"
               >
                 Request Custom Quote
               </a>
               <a 
                 href="tel:(416)555-0123" 
-                className="border-2 border-blue-dark text-blue-dark px-8 py-3 rounded-lg font-semibold hover:bg-blue-dark hover:text-white transition-colors"
+                className="border-2 border-construction-dark text-construction-dark px-8 py-3 rounded-lg font-semibold hover:bg-construction-dark hover:text-white transition-colors"
               >
                 Call Us: (416) 555-0123
               </a>

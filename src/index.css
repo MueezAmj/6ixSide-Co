@@ -44,11 +44,12 @@
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 210 100% 50%;
 
-    /* Custom blue gradient colors */
-    --blue-light: 180 100% 85%;
-    --blue-medium-light: 200 100% 70%;
-    --blue-medium: 210 100% 55%;
-    --blue-dark: 230 100% 40%;
+    /* Updated construction-themed colors */
+    --construction-light: 25 85% 88%;
+    --construction-medium-light: 20 75% 75%;
+    --construction-medium: 15 65% 55%;
+    --construction-dark: 10 55% 35%;
+    --construction-accent: 35 90% 65%;
   }
 
   .dark {

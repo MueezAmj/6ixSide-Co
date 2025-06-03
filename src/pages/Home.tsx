@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Truck, Shield, Clock, Users } from 'lucide-react';
@@ -95,25 +96,25 @@ const Home = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-dark to-blue-medium text-white py-20">
+      <section className="bg-gradient-to-r from-construction-dark to-construction-medium text-white py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               Your Local Source for Premium Building Materials in the GTA
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-blue-light">
+            <p className="text-xl md:text-2xl mb-8 text-construction-light">
               Trusted supplier serving contractors, builders, and homeowners across the Greater Toronto Area
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link 
                 to="/quote" 
-                className="bg-blue-light text-blue-dark px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-medium-light transition-colors inline-flex items-center justify-center"
+                className="bg-construction-light text-construction-dark px-8 py-4 rounded-lg text-lg font-semibold hover:bg-construction-medium-light transition-colors inline-flex items-center justify-center"
               >
                 Request a Quote <ArrowRight className="ml-2" size={20} />
               </Link>
               <Link 
                 to="/products" 
-                className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-blue-dark transition-colors"
+                className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-construction-dark transition-colors"
               >
                 View Products
               </Link>
@@ -126,10 +127,10 @@ const Home = () => {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-blue-dark mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-construction-dark mb-4">
               Our Construction Materials
             </h2>
-            <p className="text-xl text-blue-medium">
+            <p className="text-xl text-construction-medium">
               Premium quality materials for every construction project
             </p>
           </div>
@@ -157,36 +158,36 @@ const Home = () => {
       </section>
 
       {/* Features Section */}
-      <section className="py-16 bg-blue-light/20">
+      <section className="py-16 bg-construction-light/20">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="bg-blue-medium text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-construction-medium text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Truck size={32} />
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-blue-dark">Fast Delivery</h3>
-              <p className="text-blue-medium">Quick delivery across the GTA</p>
+              <h3 className="text-xl font-semibold mb-2 text-construction-dark">Fast Delivery</h3>
+              <p className="text-construction-medium">Quick delivery across the GTA</p>
             </div>
             <div className="text-center">
-              <div className="bg-blue-medium text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-construction-medium text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Shield size={32} />
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-blue-dark">Quality Guaranteed</h3>
-              <p className="text-blue-medium">Premium materials you can trust</p>
+              <h3 className="text-xl font-semibold mb-2 text-construction-dark">Quality Guaranteed</h3>
+              <p className="text-construction-medium">Premium materials you can trust</p>
             </div>
             <div className="text-center">
-              <div className="bg-blue-medium text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-construction-medium text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Clock size={32} />
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-blue-dark">Quick Service</h3>
-              <p className="text-blue-medium">Fast quotes and order processing</p>
+              <h3 className="text-xl font-semibold mb-2 text-construction-dark">Quick Service</h3>
+              <p className="text-construction-medium">Fast quotes and order processing</p>
             </div>
             <div className="text-center">
-              <div className="bg-blue-medium text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-construction-medium text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Users size={32} />
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-blue-dark">Expert Support</h3>
-              <p className="text-blue-medium">Knowledgeable team to help you</p>
+              <h3 className="text-xl font-semibold mb-2 text-construction-dark">Expert Support</h3>
+              <p className="text-construction-medium">Knowledgeable team to help you</p>
             </div>
           </div>
         </div>
@@ -196,10 +197,10 @@ const Home = () => {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-blue-dark mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-construction-dark mb-4">
               Featured Product Categories
             </h2>
-            <p className="text-xl text-blue-medium max-w-2xl mx-auto">
+            <p className="text-xl text-construction-medium max-w-2xl mx-auto">
               We supply everything you need for your construction and renovation projects
             </p>
           </div>
@@ -213,7 +214,7 @@ const Home = () => {
           <div className="text-center">
             <Link 
               to="/products" 
-              className="bg-blue-dark text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-medium transition-colors inline-flex items-center"
+              className="bg-construction-dark text-white px-8 py-3 rounded-lg font-semibold hover:bg-construction-medium transition-colors inline-flex items-center"
             >
               View All Products <ArrowRight className="ml-2" size={20} />
             </Link>
@@ -222,17 +223,17 @@ const Home = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-blue-medium py-16">
+      <section className="bg-construction-medium py-16">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             Ready to Start Your Project?
           </h2>
-          <p className="text-xl text-blue-light mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-construction-light mb-8 max-w-2xl mx-auto">
             Get a custom quote for your construction materials today. Fast, competitive pricing for all your building needs.
           </p>
           <Link 
             to="/quote" 
-            className="bg-white text-blue-medium px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-light transition-colors inline-flex items-center"
+            className="bg-white text-construction-medium px-8 py-4 rounded-lg text-lg font-semibold hover:bg-construction-light transition-colors inline-flex items-center"
           >
             Get Your Quote Now <ArrowRight className="ml-2" size={20} />
           </Link>

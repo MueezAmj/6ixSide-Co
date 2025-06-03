@@ -66,11 +66,12 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Custom blue gradient colors
-				'blue-light': 'hsl(var(--blue-light))',
-				'blue-medium-light': 'hsl(var(--blue-medium-light))',
-				'blue-medium': 'hsl(var(--blue-medium))',
-				'blue-dark': 'hsl(var(--blue-dark))'
+				// Updated construction-themed colors
+				'construction-light': 'hsl(var(--construction-light))',
+				'construction-medium-light': 'hsl(var(--construction-medium-light))',
+				'construction-medium': 'hsl(var(--construction-medium))',
+				'construction-dark': 'hsl(var(--construction-dark))',
+				'construction-accent': 'hsl(var(--construction-accent))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

@@ -29,11 +29,11 @@ const Contact = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-blue-dark text-white py-16">
+      <section className="bg-construction-dark text-white py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Contact Us</h1>
-            <p className="text-xl text-blue-light">
+            <p className="text-xl text-construction-light">
               Get in touch with our team. We're here to help with all your construction supply needs.
             </p>
           </div>
@@ -45,38 +45,38 @@ const Contact = () => {
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Information */}
             <div>
-              <h2 className="text-3xl font-bold text-blue-dark mb-8">Get in Touch</h2>
+              <h2 className="text-3xl font-bold text-construction-dark mb-8">Get in Touch</h2>
               
               <div className="space-y-8">
                 <div className="flex items-start space-x-4">
-                  <div className="bg-blue-medium text-white p-3 rounded-lg">
+                  <div className="bg-construction-medium text-white p-3 rounded-lg">
                     <Phone size={24} />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-blue-dark mb-2">Phone</h3>
-                    <p className="text-blue-medium mb-1">Main Line: (416) 555-0123</p>
-                    <p className="text-blue-medium">Emergency: (416) 555-0124</p>
+                    <h3 className="text-xl font-semibold text-construction-dark mb-2">Phone</h3>
+                    <p className="text-construction-medium mb-1">Main Line: (416) 555-0123</p>
+                    <p className="text-construction-medium">Emergency: (416) 555-0124</p>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="bg-blue-medium text-white p-3 rounded-lg">
+                  <div className="bg-construction-medium text-white p-3 rounded-lg">
                     <Mail size={24} />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-blue-dark mb-2">Email</h3>
-                    <p className="text-blue-medium mb-1">General: info@6ixsideconstruction.com</p>
-                    <p className="text-blue-medium">Quotes: quotes@6ixsideconstruction.com</p>
+                    <h3 className="text-xl font-semibold text-construction-dark mb-2">Email</h3>
+                    <p className="text-construction-medium mb-1">General: info@881canadainc.com</p>
+                    <p className="text-construction-medium">Quotes: quotes@881canadainc.com</p>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="bg-blue-medium text-white p-3 rounded-lg">
+                  <div className="bg-construction-medium text-white p-3 rounded-lg">
                     <MapPin size={24} />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-blue-dark mb-2">Address</h3>
-                    <p className="text-blue-medium">
+                    <h3 className="text-xl font-semibold text-construction-dark mb-2">Address</h3>
+                    <p className="text-construction-medium">
                       123 Construction Avenue<br />
                       Toronto, ON M5V 3A8<br />
                       Canada
@@ -85,12 +85,12 @@ const Contact = () => {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="bg-blue-medium text-white p-3 rounded-lg">
+                  <div className="bg-construction-medium text-white p-3 rounded-lg">
                     <Clock size={24} />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-blue-dark mb-2">Business Hours</h3>
-                    <div className="text-blue-medium space-y-1">
+                    <h3 className="text-xl font-semibold text-construction-dark mb-2">Business Hours</h3>
+                    <div className="text-construction-medium space-y-1">
                       <p>Monday - Friday: 7:00 AM - 6:00 PM</p>
                       <p>Saturday: 8:00 AM - 4:00 PM</p>
                       <p>Sunday: Closed</p>
@@ -101,9 +101,9 @@ const Contact = () => {
 
               {/* Map placeholder */}
               <div className="mt-8">
-                <h3 className="text-xl font-semibold text-blue-dark mb-4">Our Location</h3>
-                <div className="bg-blue-light rounded-lg h-64 flex items-center justify-center">
-                  <div className="text-center text-blue-medium">
+                <h3 className="text-xl font-semibold text-construction-dark mb-4">Our Location</h3>
+                <div className="bg-construction-light rounded-lg h-64 flex items-center justify-center">
+                  <div className="text-center text-construction-medium">
                     <MapPin size={48} className="mx-auto mb-2" />
                     <p>Interactive map would be embedded here</p>
                     <p className="text-sm">123 Construction Avenue, Toronto, ON</p>
@@ -117,20 +117,20 @@ const Contact = () => {
               {isSubmitted ? (
                 <div className="bg-white rounded-lg shadow-md p-8 text-center">
                   <CheckCircle size={64} className="text-green-500 mx-auto mb-6" />
-                  <h3 className="text-2xl font-bold text-blue-dark mb-4">Message Sent!</h3>
-                  <p className="text-blue-medium mb-6">
+                  <h3 className="text-2xl font-bold text-construction-dark mb-4">Message Sent!</h3>
+                  <p className="text-construction-medium mb-6">
                     Thank you for contacting us. We'll get back to you within 24 hours.
                   </p>
                   <button 
                     onClick={() => setIsSubmitted(false)}
-                    className="bg-blue-medium text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-dark transition-colors"
+                    className="bg-construction-medium text-white px-6 py-2 rounded-lg font-semibold hover:bg-construction-dark transition-colors"
                   >
                     Send Another Message
                   </button>
                 </div>
               ) : (
                 <div className="bg-white rounded-lg shadow-md p-8">
-                  <h3 className="text-2xl font-bold text-blue-dark mb-6">Send us a Message</h3>
+                  <h3 className="text-2xl font-bold text-construction-dark mb-6">Send us a Message</h3>
                   
                   <form onSubmit={handleSubmit} className="space-y-6">
                     <div className="grid md:grid-cols-2 gap-4">
@@ -222,7 +222,7 @@ const Contact = () => {
 
                     <button
                       type="submit"
-                      className="w-full bg-blue-medium text-white py-3 px-6 rounded-lg font-semibold hover:bg-blue-dark transition-colors flex items-center justify-center"
+                      className="w-full bg-construction-medium text-white py-3 px-6 rounded-lg font-semibold hover:bg-construction-dark transition-colors flex items-center justify-center"
                     >
                       <Send className="mr-2" size={20} />
                       Send Message
