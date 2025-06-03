@@ -96,13 +96,22 @@ const Home = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-construction-dark to-construction-medium text-white py-20">
-        <div className="container mx-auto px-4">
+      <section 
+        className="relative py-20 min-h-[600px] flex items-center"
+        style={{
+          backgroundImage: `url('/lovable-uploads/00a0d7f7-2691-44a7-b220-2bdf55e50e9f.png')`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}
+      >
+        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white">
               Your Local Source for Premium Building Materials in the GTA
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-construction-light">
+            <p className="text-xl md:text-2xl mb-8 text-white">
               Trusted supplier serving contractors, builders, and homeowners across the Greater Toronto Area
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
