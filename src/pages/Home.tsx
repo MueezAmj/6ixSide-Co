@@ -20,36 +20,56 @@ import {
 const Home = () => {
   const featuredProducts = [
     {
-      name: "Wood & Lumber",
-      description: "Premium quality lumber for all your construction needs",
-      image: "/lovable-uploads/77ae42e8-4556-4ddf-88d1-76c9eccab88b.png",
+      name: "Building Supply",
+      description: "Comprehensive building supplies including structural materials, hardware, and essential construction components for all project types.",
+      image: "/lovable-uploads/ea91c266-7716-48af-929f-9052d189e486.png",
       inStock: true,
       icon: <Construction />
     },
     {
-      name: "Flooring",
-      description: "Hardwood, laminate, and tile flooring options",
-      image: "/lovable-uploads/0e7092c3-52bc-4abb-baab-a09fc61ff7fc.png",
+      name: "Material Flooring",
+      description: "Specialized flooring materials including engineered flooring, subfloor systems, transition strips, and premium flooring accessories.",
+      image: "/lovable-uploads/ab3fde89-859e-408a-afaf-dd4c2750d7dd.png",
       inStock: true,
       icon: <HomeIcon />
     },
     {
-      name: "Washroom Products",
-      description: "Complete bathroom renovation supplies",
-      image: "/lovable-uploads/ce612bfa-53bc-4c0d-90ce-be9a11b69f95.png",
-      inStock: false,
+      name: "Drywall",
+      description: "Complete drywall systems including panels, joint compound, tape, corner beads, and finishing supplies for interior construction.",
+      image: "/lovable-uploads/1e026965-4042-499f-93d7-c57486891df6.png",
+      inStock: true,
       icon: <Wrench />
     },
     {
-      name: "Concrete & Cement",
-      description: "High-strength concrete and cement products",
-      image: "/lovable-uploads/6dc8aadd-6ae7-4f46-8c88-c8cb9092b0c0.png",
+      name: "Insulation",
+      description: "Energy-efficient insulation materials including fiberglass, foam, and reflective insulation for thermal and sound control.",
+      image: "/lovable-uploads/c57409e5-6b75-47ba-bb90-5a2dd8bdc5a4.png",
       inStock: true,
       icon: <Building />
     }
   ];
 
   const bannerImages = [
+    {
+      src: "/lovable-uploads/ea91c266-7716-48af-929f-9052d189e486.png",
+      alt: "Building Supply"
+    },
+    {
+      src: "/lovable-uploads/ab3fde89-859e-408a-afaf-dd4c2750d7dd.png",
+      alt: "Material Flooring"
+    },
+    {
+      src: "/lovable-uploads/1e026965-4042-499f-93d7-c57486891df6.png",
+      alt: "Drywall"
+    },
+    {
+      src: "/lovable-uploads/c57409e5-6b75-47ba-bb90-5a2dd8bdc5a4.png",
+      alt: "Insulation"
+    },
+    {
+      src: "/lovable-uploads/35507a8c-ce6d-43fa-9b4a-5174d069049f.png",
+      alt: "Roofing Materials"
+    },
     {
       src: "/lovable-uploads/77ae42e8-4556-4ddf-88d1-76c9eccab88b.png",
       alt: "Wood & Lumber"
@@ -67,28 +87,8 @@ const Home = () => {
       alt: "Concrete & Cement"
     },
     {
-      src: "/lovable-uploads/1e026965-4042-499f-93d7-c57486891df6.png",
-      alt: "Drywall"
-    },
-    {
-      src: "/lovable-uploads/35507a8c-ce6d-43fa-9b4a-5174d069049f.png",
-      alt: "Roofing Materials"
-    },
-    {
-      src: "/lovable-uploads/c57409e5-6b75-47ba-bb90-5a2dd8bdc5a4.png",
-      alt: "Insulation"
-    },
-    {
       src: "/lovable-uploads/9d04bcbd-b9dc-4531-a793-44b3f9e5dc30.png",
       alt: "Tools & Fasteners"
-    },
-    {
-      src: "/lovable-uploads/77ae42e8-4556-4ddf-88d1-76c9eccab88b.png",
-      alt: "Building Supply"
-    },
-    {
-      src: "/lovable-uploads/0e7092c3-52bc-4abb-baab-a09fc61ff7fc.png",
-      alt: "Material Flooring"
     }
   ];
 

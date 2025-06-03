@@ -1,4 +1,3 @@
-
 import React from 'react';
 import ProductCard from '../components/ProductCard';
 import { 
@@ -11,6 +10,41 @@ import {
 
 const Products = () => {
   const products = [
+    {
+      name: "Building Supply",
+      description: "Comprehensive building supplies including structural materials, hardware, and essential construction components for all project types.",
+      image: "/lovable-uploads/ea91c266-7716-48af-929f-9052d189e486.png",
+      inStock: true,
+      icon: <Construction />
+    },
+    {
+      name: "Material Flooring",
+      description: "Specialized flooring materials including engineered flooring, subfloor systems, transition strips, and premium flooring accessories.",
+      image: "/lovable-uploads/ab3fde89-859e-408a-afaf-dd4c2750d7dd.png",
+      inStock: true,
+      icon: <HomeIcon />
+    },
+    {
+      name: "Drywall",
+      description: "Complete drywall systems including panels, joint compound, tape, corner beads, and finishing supplies for interior construction.",
+      image: "/lovable-uploads/1e026965-4042-499f-93d7-c57486891df6.png",
+      inStock: true,
+      icon: <Wrench />
+    },
+    {
+      name: "Insulation",
+      description: "Energy-efficient insulation materials including fiberglass, foam, and reflective insulation for thermal and sound control.",
+      image: "/lovable-uploads/c57409e5-6b75-47ba-bb90-5a2dd8bdc5a4.png",
+      inStock: true,
+      icon: <Building />
+    },
+    {
+      name: "Roofing Materials",
+      description: "Comprehensive roofing solutions including shingles, underlayment, flashing, gutters, and roofing accessories.",
+      image: "/lovable-uploads/35507a8c-ce6d-43fa-9b4a-5174d069049f.png",
+      inStock: false,
+      icon: <HomeIcon />
+    },
     {
       name: "Wood & Lumber",
       description: "Premium quality lumber including dimensional lumber, engineered wood, plywood, and specialty wood products for framing, flooring, and finishing.",
@@ -40,46 +74,11 @@ const Products = () => {
       icon: <Building />
     },
     {
-      name: "Drywall",
-      description: "Complete drywall systems including panels, joint compound, tape, corner beads, and finishing supplies for interior construction.",
-      image: "/lovable-uploads/1e026965-4042-499f-93d7-c57486891df6.png",
-      inStock: true,
-      icon: <Wrench />
-    },
-    {
-      name: "Roofing Materials",
-      description: "Comprehensive roofing solutions including shingles, underlayment, flashing, gutters, and roofing accessories.",
-      image: "/lovable-uploads/35507a8c-ce6d-43fa-9b4a-5174d069049f.png",
-      inStock: false,
-      icon: <HomeIcon />
-    },
-    {
-      name: "Insulation",
-      description: "Energy-efficient insulation materials including fiberglass, foam, and reflective insulation for thermal and sound control.",
-      image: "/lovable-uploads/c57409e5-6b75-47ba-bb90-5a2dd8bdc5a4.png",
-      inStock: true,
-      icon: <Building />
-    },
-    {
       name: "Tools & Fasteners",
       description: "Professional-grade tools, fasteners, hardware, and construction accessories from trusted brands.",
       image: "/lovable-uploads/9d04bcbd-b9dc-4531-a793-44b3f9e5dc30.png",
       inStock: true,
       icon: <Hammer />
-    },
-    {
-      name: "Building Supply",
-      description: "Comprehensive building supplies including structural materials, hardware, and essential construction components for all project types.",
-      image: "/lovable-uploads/77ae42e8-4556-4ddf-88d1-76c9eccab88b.png",
-      inStock: true,
-      icon: <Construction />
-    },
-    {
-      name: "Material Flooring",
-      description: "Specialized flooring materials including engineered flooring, subfloor systems, transition strips, and premium flooring accessories.",
-      image: "/lovable-uploads/0e7092c3-52bc-4abb-baab-a09fc61ff7fc.png",
-      inStock: true,
-      icon: <HomeIcon />
     }
   ];
 
